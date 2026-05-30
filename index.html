@@ -1539,8 +1539,301 @@
 
           <div class="highlight-box">📌 <strong>Resumen de la Unidad 1:</strong> La arquitectura de computadoras define la base conceptual y técnica de todos los sistemas informáticos. Abarca desde los modelos fundamentales (Von Neumann, Harvard, Pipeline, Multiprocesamiento) hasta los mecanismos que permiten que CPU, memoria, E/S y buses trabajen de forma coordinada y eficiente mediante interrupciones y DMA.</div>
 
+          <!-- ── EXTRA: EVOLUCIÓN HISTÓRICA ── -->
+          <div class="unit-header">📌 1.8 Evolución Histórica de las Arquitecturas</div>
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Línea del Tiempo: Generaciones de Computadoras</div>
+            <svg width="100%" viewBox="0 0 560 130" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- Timeline line -->
+              <line x1="20" y1="65" x2="540" y2="65" stroke="#0a246a" stroke-width="2.5"/>
+              <!-- Gen 1 -->
+              <circle cx="60" cy="65" r="10" fill="#c04000" stroke="#902000" stroke-width="1.5"/>
+              <text x="60" y="69" text-anchor="middle" font-size="8" fill="white" font-weight="bold">1</text>
+              <text x="60" y="50" text-anchor="middle" font-size="8" font-weight="bold" fill="#c04000">1940-56</text>
+              <text x="60" y="84" text-anchor="middle" font-size="7" fill="#333">Tubos</text>
+              <text x="60" y="94" text-anchor="middle" font-size="7" fill="#333">de vacío</text>
+              <text x="60" y="104" text-anchor="middle" font-size="7" fill="#555">ENIAC, EDVAC</text>
+              <!-- Gen 2 -->
+              <circle cx="160" cy="65" r="10" fill="#7a3a00" stroke="#5a2a00" stroke-width="1.5"/>
+              <text x="160" y="69" text-anchor="middle" font-size="8" fill="white" font-weight="bold">2</text>
+              <text x="160" y="50" text-anchor="middle" font-size="8" font-weight="bold" fill="#7a3a00">1956-63</text>
+              <text x="160" y="84" text-anchor="middle" font-size="7" fill="#333">Transistores</text>
+              <text x="160" y="94" text-anchor="middle" font-size="7" fill="#333">discretos</text>
+              <text x="160" y="104" text-anchor="middle" font-size="7" fill="#555">IBM 7090</text>
+              <!-- Gen 3 -->
+              <circle cx="270" cy="65" r="10" fill="#1e5799" stroke="#0a246a" stroke-width="1.5"/>
+              <text x="270" y="69" text-anchor="middle" font-size="8" fill="white" font-weight="bold">3</text>
+              <text x="270" y="50" text-anchor="middle" font-size="8" font-weight="bold" fill="#1e5799">1963-71</text>
+              <text x="270" y="84" text-anchor="middle" font-size="7" fill="#333">Circuitos</text>
+              <text x="270" y="94" text-anchor="middle" font-size="7" fill="#333">integrados (IC)</text>
+              <text x="270" y="104" text-anchor="middle" font-size="7" fill="#555">IBM System/360</text>
+              <!-- Gen 4 -->
+              <circle cx="380" cy="65" r="10" fill="#2d6624" stroke="#1a4414" stroke-width="1.5"/>
+              <text x="380" y="69" text-anchor="middle" font-size="8" fill="white" font-weight="bold">4</text>
+              <text x="380" y="50" text-anchor="middle" font-size="8" font-weight="bold" fill="#2d6624">1971-hoy</text>
+              <text x="380" y="84" text-anchor="middle" font-size="7" fill="#333">Microprocesador</text>
+              <text x="380" y="94" text-anchor="middle" font-size="7" fill="#333">VLSI / ULSI</text>
+              <text x="380" y="104" text-anchor="middle" font-size="7" fill="#555">Intel 4004 → x86</text>
+              <!-- Gen 5 -->
+              <circle cx="500" cy="65" r="10" fill="#660080" stroke="#440060" stroke-width="1.5"/>
+              <text x="500" y="69" text-anchor="middle" font-size="8" fill="white" font-weight="bold">5</text>
+              <text x="500" y="50" text-anchor="middle" font-size="8" font-weight="bold" fill="#660080">Actual</text>
+              <text x="500" y="84" text-anchor="middle" font-size="7" fill="#333">IA · Cuántica</text>
+              <text x="500" y="94" text-anchor="middle" font-size="7" fill="#333">Neuromorfa</text>
+              <text x="500" y="104" text-anchor="middle" font-size="7" fill="#555">NPU, GPU AI</text>
+              <text x="10" y="125" font-size="7" fill="#888">Ley de Moore: el número de transistores se duplica cada ~2 años → 1971: 2,300 transistores (4004) → 2024: 100,000 millones (M4)</text>
+            </svg>
+          </div>
+
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>🕯️ 1ª Generación — Tubos de Vacío (1940–1956)</h4>
+              Las primeras computadoras usaban tubos al vacío como interruptores electrónicos. Enormes, costosas y consumían grandes cantidades de energía. La ENIAC pesaba 30 toneladas y ocupaba 167 m². Programadas con cables y tarjetas perforadas. Velocidad: miles de operaciones/segundo.
+            </div>
+            <div class="info-card">
+              <h4>⚡ 2ª Generación — Transistores (1956–1963)</h4>
+              El transistor reemplazó a los tubos: más pequeño, más rápido, más confiable y de menor consumo. Surgió el lenguaje ensamblador y los primeros lenguajes de alto nivel (FORTRAN, COBOL). Las computadoras comenzaron a usarse en empresas y universidades.
+            </div>
+            <div class="info-card">
+              <h4>🔬 3ª Generación — Circuitos Integrados (1963–1971)</h4>
+              Jack Kilby (Texas Instruments) integró múltiples transistores en un solo chip semiconductor. Surgieron los sistemas operativos multiprogramación. La IBM System/360 fue la primera familia compatible de computadoras. Velocidad: millones de instrucciones/segundo (MIPS).
+            </div>
+            <div class="info-card">
+              <h4>💻 4ª Generación — Microprocesador (1971–hoy)</h4>
+              Intel lanzó el 4004 (1971): primer microprocesador en un solo chip. La PC revolucionó el mundo. VLSI (Very Large Scale Integration) y ULSI permiten miles de millones de transistores. Pipeline, cache, múltiples núcleos. Velocidad: GHz con miles de millones de ops/seg.
+            </div>
+          </div>
+
+          <!-- ── EXTRA: LÓGICA DIGITAL BÁSICA ── -->
+          <div class="unit-header">📌 1.9 Fundamentos de Lógica Digital y Representación de Datos</div>
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>🔢 Sistema Binario</h4>
+              Las computadoras trabajan exclusivamente con señales eléctricas de dos estados: <strong>0 (apagado/bajo)</strong> y <strong>1 (encendido/alto)</strong>. Toda información — texto, imagen, audio, video, programa — se representa internamente como combinaciones de 0s y 1s.
+              <ul>
+                <li><strong>Bit:</strong> unidad mínima de información (0 ó 1)</li>
+                <li><strong>Byte:</strong> 8 bits → 256 valores posibles (0–255)</li>
+                <li><strong>Word:</strong> grupo nativo del procesador (16, 32 ó 64 bits)</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🔣 Sistemas de Numeración</h4>
+              <ul>
+                <li><strong>Decimal (base 10):</strong> 0–9 — uso humano cotidiano</li>
+                <li><strong>Binario (base 2):</strong> 0–1 — lenguaje nativo del hardware</li>
+                <li><strong>Octal (base 8):</strong> 0–7 — compacta representación binaria</li>
+                <li><strong>Hexadecimal (base 16):</strong> 0–9, A–F — muy usada en programación (direcciones de memoria, colores, opcodes)</li>
+              </ul>
+              Ejemplo: 255₁₀ = 11111111₂ = FF₁₆ = 377₈
+            </div>
+            <div class="info-card">
+              <h4>🚪 Puertas Lógicas</h4>
+              Circuitos elementales que implementan operaciones booleanas sobre señales binarias. Son los bloques constructivos de toda la lógica digital:
+              <ul>
+                <li><strong>AND:</strong> salida 1 solo si ambas entradas son 1</li>
+                <li><strong>OR:</strong> salida 1 si al menos una entrada es 1</li>
+                <li><strong>NOT:</strong> invierte la entrada (1→0, 0→1)</li>
+                <li><strong>XOR:</strong> salida 1 si las entradas son distintas</li>
+                <li><strong>NAND/NOR:</strong> universales — pueden implementar cualquier función lógica</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>📦 Representación de Datos</h4>
+              <ul>
+                <li><strong>Enteros sin signo:</strong> binario puro (0 a 2ⁿ-1)</li>
+                <li><strong>Enteros con signo:</strong> complemento a 2 — el bit más significativo indica signo</li>
+                <li><strong>Punto flotante (IEEE 754):</strong> signo + exponente + mantisa — para números reales</li>
+                <li><strong>ASCII / Unicode:</strong> mapeo de caracteres a valores numéricos ('A' = 65)</li>
+                <li><strong>BCD:</strong> Binary Coded Decimal — usado en calculadoras</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- SVG: Puertas lógicas básicas -->
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Puertas Lógicas Básicas y sus Tablas de Verdad</div>
+            <svg width="100%" viewBox="0 0 560 120" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- AND gate -->
+              <text x="60" y="14" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e5799">AND</text>
+              <line x1="20" y1="35" x2="45" y2="35" stroke="#333" stroke-width="1.5"/>
+              <line x1="20" y1="55" x2="45" y2="55" stroke="#333" stroke-width="1.5"/>
+              <rect x="45" y="25" width="35" height="40" rx="0" fill="none"/>
+              <path d="M45,25 L70,25 Q100,25 100,45 Q100,65 70,65 L45,65 Z" fill="#e8f0ff" stroke="#1e5799" stroke-width="1.5"/>
+              <line x1="100" y1="45" x2="120" y2="45" stroke="#333" stroke-width="1.5"/>
+              <!-- Truth table AND -->
+              <text x="30" y="85" font-size="7" fill="#555">A B → Y</text>
+              <text x="30" y="95" font-size="7" fill="#555">0 0 → 0</text>
+              <text x="30" y="105" font-size="7" fill="#555">0 1 → 0</text>
+              <text x="30" y="115" font-size="7" fill="#2d6624">1 1 → 1</text>
+
+              <!-- OR gate -->
+              <text x="190" y="14" text-anchor="middle" font-size="9" font-weight="bold" fill="#2d6624">OR</text>
+              <line x1="150" y1="35" x2="172" y2="35" stroke="#333" stroke-width="1.5"/>
+              <line x1="150" y1="55" x2="172" y2="55" stroke="#333" stroke-width="1.5"/>
+              <path d="M168,25 Q195,25 215,45 Q195,65 168,65 Q185,45 168,25 Z" fill="#e8f8e8" stroke="#2d6624" stroke-width="1.5"/>
+              <line x1="215" y1="45" x2="235" y2="45" stroke="#333" stroke-width="1.5"/>
+              <text x="160" y="85" font-size="7" fill="#555">A B → Y</text>
+              <text x="160" y="95" font-size="7" fill="#555">0 0 → 0</text>
+              <text x="160" y="105" font-size="7" fill="#2d6624">0 1 → 1</text>
+              <text x="160" y="115" font-size="7" fill="#2d6624">1 1 → 1</text>
+
+              <!-- NOT gate -->
+              <text x="305" y="14" text-anchor="middle" font-size="9" font-weight="bold" fill="#c04000">NOT</text>
+              <line x1="270" y1="45" x2="290" y2="45" stroke="#333" stroke-width="1.5"/>
+              <polygon points="290,28 290,62 320,45" fill="#fff0e8" stroke="#c04000" stroke-width="1.5"/>
+              <circle cx="323" cy="45" r="4" fill="none" stroke="#c04000" stroke-width="1.5"/>
+              <line x1="327" y1="45" x2="345" y2="45" stroke="#333" stroke-width="1.5"/>
+              <text x="278" y="85" font-size="7" fill="#555">A → Y</text>
+              <text x="278" y="95" font-size="7" fill="#2d6624">0 → 1</text>
+              <text x="278" y="105" font-size="7" fill="#c04000">1 → 0</text>
+
+              <!-- XOR gate -->
+              <text x="450" y="14" text-anchor="middle" font-size="9" font-weight="bold" fill="#660080">XOR</text>
+              <line x1="375" y1="35" x2="400" y2="35" stroke="#333" stroke-width="1.5"/>
+              <line x1="375" y1="55" x2="400" y2="55" stroke="#333" stroke-width="1.5"/>
+              <path d="M393,25 Q420,25 440,45 Q420,65 393,65 Q410,45 393,25 Z" fill="#f8e8ff" stroke="#660080" stroke-width="1.5"/>
+              <path d="M388,25 Q405,45 388,65" fill="none" stroke="#660080" stroke-width="1.5"/>
+              <line x1="440" y1="45" x2="460" y2="45" stroke="#333" stroke-width="1.5"/>
+              <text x="385" y="85" font-size="7" fill="#555">A B → Y</text>
+              <text x="385" y="95" font-size="7" fill="#555">0 0 → 0</text>
+              <text x="385" y="105" font-size="7" fill="#2d6624">0 1 → 1</text>
+              <text x="385" y="115" font-size="7" fill="#555">1 1 → 0</text>
+            </svg>
+          </div>
+
+          <!-- ── EXTRA: RENDIMIENTO Y MÉTRICAS ── -->
+          <div class="unit-header">📌 1.10 Métricas de Rendimiento de Computadoras</div>
+          <p style="font-size:11px;margin-bottom:8px;color:#222;">Para comparar y evaluar computadoras se utilizan métricas estandarizadas que miden distintos aspectos del rendimiento del sistema.</p>
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>⏱️ Tiempo de Ejecución (CPU Time)</h4>
+              La métrica más fundamental. Tiempo que la CPU dedica exclusivamente a un programa:<br><br>
+              <code style="background:#eee;padding:2px 6px;font-size:10px;display:block;margin:4px 0;">T_cpu = IC × CPI × T_ciclo</code>
+              <ul>
+                <li><strong>IC:</strong> Instruction Count — número de instrucciones</li>
+                <li><strong>CPI:</strong> Cycles Per Instruction — ciclos promedio por instrucción</li>
+                <li><strong>T_ciclo:</strong> 1 / frecuencia del reloj</li>
+              </ul>
+              Reducir cualquiera de los tres factores mejora el rendimiento.
+            </div>
+            <div class="info-card">
+              <h4>📊 MIPS y MFLOPS</h4>
+              <ul>
+                <li><strong>MIPS</strong> (Millones de Instrucciones Por Segundo): mide velocidad de instrucciones enteras. Útil pero engañosa si no se considera la complejidad de cada instrucción.</li>
+                <li><strong>MFLOPS / GFLOPS / TFLOPS</strong> (operaciones de punto flotante/segundo): más relevante para científico/IA. Una GPU moderna supera 100 TFLOPS.</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>📈 Ley de Amdahl</h4>
+              Establece el <strong>límite teórico de aceleración</strong> al paralelizar un programa:<br><br>
+              <code style="background:#eee;padding:2px 6px;font-size:10px;display:block;margin:4px 0;">S = 1 / (1 - P + P/N)</code>
+              Donde P = fracción paralelizable, N = núcleos.<br>Si el 20% del código es secuencial, la aceleración máxima posible es 5×, sin importar cuántos procesadores se usen.
+            </div>
+            <div class="info-card">
+              <h4>🔁 Latencia vs Ancho de Banda</h4>
+              <ul>
+                <li><strong>Latencia:</strong> tiempo desde que se solicita un dato hasta que llega. Afecta tareas secuenciales. Registros: ~0.3ns · L1: ~1ns · RAM: ~100ns · SSD: ~100μs</li>
+                <li><strong>Ancho de banda (throughput):</strong> cantidad de datos transferibles por segundo. Crítico para operaciones masivas. DDR5 dual-channel: ~100 GB/s · PCIe 5.0 x16: ~128 GB/s</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ── EXTRA: TABLA COMPARATIVA ARQUITECTURAS ── -->
+          <div class="unit-header">📌 1.11 Tabla Comparativa — Modelos Arquitectónicos</div>
+          <div style="overflow-x:auto;margin-bottom:10px;">
+            <table class="xp-table">
+              <thead>
+                <tr>
+                  <th>Característica</th>
+                  <th>Von Neumann</th>
+                  <th>Harvard</th>
+                  <th>Pipeline</th>
+                  <th>Multiprocesador</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>Memorias</strong></td><td>Compartida (inst+datos)</td><td>Separadas físicamente</td><td>Compartida</td><td>Compartida o distribuida</td></tr>
+                <tr><td><strong>Buses</strong></td><td>Un bus único</td><td>Bus independiente por memoria</td><td>Un bus + etapas</td><td>Múltiples buses/redes</td></tr>
+                <tr><td><strong>Rendimiento</strong></td><td>Limitado por cuello de botella</td><td>Alto en acceso simultáneo</td><td>Alto (1 instr/ciclo teórico)</td><td>Muy alto con paralelismo</td></tr>
+                <tr><td><strong>Complejidad</strong></td><td>Baja</td><td>Media</td><td>Media-Alta</td><td>Alta</td></tr>
+                <tr><td><strong>Costo</strong></td><td>Bajo</td><td>Medio</td><td>Medio</td><td>Alto</td></tr>
+                <tr><td><strong>Uso típico</strong></td><td>PCs, servidores generales</td><td>DSP, microcontroladores</td><td>CPUs modernas</td><td>Servidores, supercomputadoras</td></tr>
+                <tr><td><strong>Ejemplos</strong></td><td>Intel 8086, AMD x86-64</td><td>ARM Cortex-M, PIC, AVR</td><td>Intel Core i9, AMD Ryzen</td><td>Intel Xeon clusters, AWS</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ── EXTRA: DISEÑO DE CONJUNTOS DE INSTRUCCIONES ── -->
+          <div class="unit-header">📌 1.12 ISA — Instruction Set Architecture</div>
+          <p style="font-size:11px;margin-bottom:8px;color:#222;">La ISA (Arquitectura del Conjunto de Instrucciones) es la <strong>interfaz entre el hardware y el software</strong>. Define el conjunto completo de instrucciones que el procesador puede ejecutar, los tipos de datos, los modos de direccionamiento y los registros visibles al programador.</p>
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>📋 Formato de Instrucción</h4>
+              Cada instrucción máquina se divide en campos:
+              <ul>
+                <li><strong>Opcode:</strong> código de operación — qué hacer (ADD, MOV, JMP…)</li>
+                <li><strong>Operandos:</strong> sobre qué datos actuar (registros, inmediatos, direcciones)</li>
+                <li><strong>Modo de direccionamiento:</strong> cómo interpretar los operandos</li>
+              </ul>
+              Ejemplo x86: <code style="background:#eee;padding:1px 4px;">ADD EAX, [EBX+8]</code> = sumar al registro EAX el dato en la dirección EBX+8
+            </div>
+            <div class="info-card">
+              <h4>🔤 Tipos de Instrucciones</h4>
+              <ul>
+                <li><strong>Transferencia de datos:</strong> MOV, LOAD, STORE — mover datos entre registros y memoria</li>
+                <li><strong>Aritméticas:</strong> ADD, SUB, MUL, DIV — operaciones sobre enteros</li>
+                <li><strong>Lógicas:</strong> AND, OR, XOR, NOT, SHL, SHR — operaciones a nivel de bits</li>
+                <li><strong>Control de flujo:</strong> JMP, CALL, RET, JZ, JNZ — bifurcaciones y llamadas</li>
+                <li><strong>Punto flotante:</strong> FADD, FMUL — operaciones en FPU</li>
+                <li><strong>Entrada/Salida:</strong> IN, OUT — acceso a puertos de dispositivos</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🔄 ISAs Modernas Relevantes</h4>
+              <ul>
+                <li><strong>x86-64 (Intel/AMD):</strong> CISC extendida a 64 bits. Domina PCs y servidores. Retrocompatible desde 8086.</li>
+                <li><strong>ARM (v8/v9):</strong> RISC de 64 bits. Domina móviles, tablets, Apple M. Muy eficiente en energía.</li>
+                <li><strong>RISC-V:</strong> ISA abierta y libre de regalías. Creciente adopción en IoT, edge computing y academia.</li>
+                <li><strong>MIPS:</strong> RISC clásica, muy usada en enrutadores y en educación de arquitectura.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ── EXTRA: NIVELES DE ABSTRACCIÓN ── -->
+          <div class="unit-header">📌 1.13 Niveles de Abstracción de un Sistema de Cómputo</div>
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Capas de Abstracción — Del Transistor a la Aplicación</div>
+            <svg width="100%" viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- Layer 1 - Aplicaciones -->
+              <rect x="60" y="8" width="440" height="22" rx="3" fill="#660080"/>
+              <text x="280" y="24" text-anchor="middle" font-size="10" fill="white" font-weight="bold">7. Aplicaciones y Software de Usuario</text>
+              <!-- Layer 2 - SO -->
+              <rect x="70" y="34" width="420" height="22" rx="3" fill="#1e5799"/>
+              <text x="280" y="50" text-anchor="middle" font-size="10" fill="white" font-weight="bold">6. Sistema Operativo (kernel, drivers, syscalls)</text>
+              <!-- Layer 3 - ISA -->
+              <rect x="80" y="60" width="400" height="22" rx="3" fill="#2d6624"/>
+              <text x="280" y="76" text-anchor="middle" font-size="10" fill="white" font-weight="bold">5. ISA — Arquitectura del Conjunto de Instrucciones</text>
+              <!-- Layer 4 - Microarquitectura -->
+              <rect x="90" y="86" width="380" height="22" rx="3" fill="#c04000"/>
+              <text x="280" y="102" text-anchor="middle" font-size="10" fill="white" font-weight="bold">4. Microarquitectura (pipeline, caché, FPU, predictor)</text>
+              <!-- Layer 5 - Lógica digital -->
+              <rect x="100" y="112" width="360" height="22" rx="3" fill="#7a3a00"/>
+              <text x="280" y="128" text-anchor="middle" font-size="10" fill="white" font-weight="bold">3. Lógica Digital (puertas, flip-flops, ALU, registros)</text>
+              <!-- Layer 6 - Circuitos -->
+              <rect x="110" y="138" width="340" height="22" rx="3" fill="#555"/>
+              <text x="280" y="154" text-anchor="middle" font-size="10" fill="white" font-weight="bold">2. Circuitos Electrónicos (transistores, resistencias, capacitores)</text>
+              <!-- Layer 7 - Física -->
+              <rect x="120" y="164" width="320" height="22" rx="3" fill="#333"/>
+              <text x="280" y="180" text-anchor="middle" font-size="10" fill="white" font-weight="bold">1. Física del Semiconductor (silicio, dopado, litografía)</text>
+              <!-- Right labels -->
+              <text x="510" y="22" font-size="7" fill="#660080">Alto nivel</text>
+              <text x="510" y="178" font-size="7" fill="#888">Bajo nivel</text>
+            </svg>
+          </div>
+          <p style="font-size:11px;margin-bottom:10px;color:#333;">Cada capa <strong>oculta la complejidad</strong> de la capa inferior y ofrece una interfaz simplificada a la capa superior. Un programador de apps no necesita saber sobre transistores; un diseñador de chips no necesita saber sobre sistemas operativos. Esta abstracción es lo que hace posible el desarrollo moderno de software y hardware de forma independiente.</p>
+
         </div>
-        <div class="status-bar"><span>7 temas</span><span>Unidad 1 completa — expandida con presentación</span></div>
+        <div class="status-bar"><span>13 temas</span><span>Unidad 1 completa — máxima expansión</span></div>
       </div>
 
       <!-- UNIT 2 -->
@@ -1798,8 +2091,218 @@
             </div>
           </div>
 
+          <!-- ── U2 EXTRA: ORGANIZACIÓN MICRO-ARQUITECTURA ── -->
+          <div class="unit-header">📌 2.5 Microarquitectura — Diseño Interno del Procesador</div>
+          <p style="font-size:11px;margin-bottom:8px;color:#222;">La microarquitectura es la <strong>implementación hardware concreta</strong> de una ISA. Dos procesadores pueden ejecutar el mismo conjunto de instrucciones (misma ISA) pero tener microarquitecturas radicalmente distintas. Define cómo se organiza internamente el pipeline, las unidades de ejecución y las optimizaciones de rendimiento.</p>
+
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Pipeline de 5 Etapas (RISC clásico)</div>
+            <svg width="100%" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- Stage boxes -->
+              <rect x="10" y="20" width="94" height="50" rx="4" fill="#1e5799" stroke="#0a246a" stroke-width="1.5"/>
+              <text x="57" y="42" text-anchor="middle" font-size="9" fill="white" font-weight="bold">IF</text>
+              <text x="57" y="55" text-anchor="middle" font-size="8" fill="#aac">Instruction</text>
+              <text x="57" y="65" text-anchor="middle" font-size="8" fill="#aac">Fetch</text>
+
+              <line x1="104" y1="45" x2="120" y2="45" stroke="#555" stroke-width="2" marker-end="url(#p5a)"/>
+
+              <rect x="120" y="20" width="94" height="50" rx="4" fill="#2d6624" stroke="#1a4414" stroke-width="1.5"/>
+              <text x="167" y="42" text-anchor="middle" font-size="9" fill="white" font-weight="bold">ID</text>
+              <text x="167" y="55" text-anchor="middle" font-size="8" fill="#afa">Instruction</text>
+              <text x="167" y="65" text-anchor="middle" font-size="8" fill="#afa">Decode</text>
+
+              <line x1="214" y1="45" x2="230" y2="45" stroke="#555" stroke-width="2" marker-end="url(#p5a)"/>
+
+              <rect x="230" y="20" width="94" height="50" rx="4" fill="#c04000" stroke="#902000" stroke-width="1.5"/>
+              <text x="277" y="42" text-anchor="middle" font-size="9" fill="white" font-weight="bold">EX</text>
+              <text x="277" y="55" text-anchor="middle" font-size="8" fill="#fda">Execute</text>
+              <text x="277" y="65" text-anchor="middle" font-size="8" fill="#fda">ALU / FPU</text>
+
+              <line x1="324" y1="45" x2="340" y2="45" stroke="#555" stroke-width="2" marker-end="url(#p5a)"/>
+
+              <rect x="340" y="20" width="94" height="50" rx="4" fill="#660080" stroke="#440060" stroke-width="1.5"/>
+              <text x="387" y="42" text-anchor="middle" font-size="9" fill="white" font-weight="bold">MEM</text>
+              <text x="387" y="55" text-anchor="middle" font-size="8" fill="#daa">Memory</text>
+              <text x="387" y="65" text-anchor="middle" font-size="8" fill="#daa">Access</text>
+
+              <line x1="434" y1="45" x2="450" y2="45" stroke="#555" stroke-width="2" marker-end="url(#p5a)"/>
+
+              <rect x="450" y="20" width="100" height="50" rx="4" fill="#7a3a00" stroke="#5a2a00" stroke-width="1.5"/>
+              <text x="500" y="42" text-anchor="middle" font-size="9" fill="white" font-weight="bold">WB</text>
+              <text x="500" y="55" text-anchor="middle" font-size="8" fill="#fda">Write</text>
+              <text x="500" y="65" text-anchor="middle" font-size="8" fill="#fda">Back</text>
+
+              <!-- What each stage does -->
+              <text x="57" y="90" text-anchor="middle" font-size="7" fill="#555">PC→MAR</text>
+              <text x="57" y="100" text-anchor="middle" font-size="7" fill="#555">Lee instrucción</text>
+              <text x="57" y="110" text-anchor="middle" font-size="7" fill="#555">PC+1</text>
+
+              <text x="167" y="90" text-anchor="middle" font-size="7" fill="#555">Opcode→UC</text>
+              <text x="167" y="100" text-anchor="middle" font-size="7" fill="#555">Lee registros</text>
+              <text x="167" y="110" text-anchor="middle" font-size="7" fill="#555">Extiende inmediato</text>
+
+              <text x="277" y="90" text-anchor="middle" font-size="7" fill="#555">ALU opera</text>
+              <text x="277" y="100" text-anchor="middle" font-size="7" fill="#555">Calcula dirección</text>
+              <text x="277" y="110" text-anchor="middle" font-size="7" fill="#555">Evalúa condición</text>
+
+              <text x="387" y="90" text-anchor="middle" font-size="7" fill="#555">Lee/escribe RAM</text>
+              <text x="387" y="100" text-anchor="middle" font-size="7" fill="#555">Solo LOAD/STORE</text>
+              <text x="387" y="110" text-anchor="middle" font-size="7" fill="#555">Usa caché L1-D</text>
+
+              <text x="500" y="90" text-anchor="middle" font-size="7" fill="#555">Guarda resultado</text>
+              <text x="500" y="100" text-anchor="middle" font-size="7" fill="#555">en registro destino</text>
+
+              <text x="280" y="130" text-anchor="middle" font-size="8" fill="#0a246a" font-weight="bold">Con pipeline: throughput de 1 instrucción por ciclo (en estado estacionario)</text>
+              <text x="280" y="143" text-anchor="middle" font-size="8" fill="#555">Sin pipeline: 5 ciclos por instrucción</text>
+              <defs><marker id="p5a" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#555"/></marker></defs>
+            </svg>
+          </div>
+
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>⚠️ Riesgos del Pipeline (Hazards)</h4>
+              El pipeline ideal nunca se detiene, pero en la práctica aparecen <em>hazards</em> que lo frenan:
+              <ul>
+                <li><strong>Riesgo de datos:</strong> una instrucción necesita el resultado de la anterior (aún en proceso). Solución: <em>forwarding</em> (reenvío directo entre etapas) o inserción de <em>NOPs</em> (burbujas).</li>
+                <li><strong>Riesgo de control:</strong> instrucción de salto (JMP/branch) — no se sabe qué instrucción viene a continuación. Solución: <em>predicción de saltos</em> (branch prediction).</li>
+                <li><strong>Riesgo estructural:</strong> dos instrucciones necesitan el mismo recurso hardware simultáneamente. Solución: duplicar recursos (más ALUs, bancos de registros).</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🔮 Predicción de Saltos (Branch Prediction)</h4>
+              Como el destino de un salto condicional no se conoce hasta la etapa EX, el procesador <strong>predice</strong> hacia dónde saltará y precarga instrucciones:
+              <ul>
+                <li><strong>Predicción estática:</strong> siempre asume que el salto se toma (o no se toma). Simple pero imprecisa.</li>
+                <li><strong>Predicción dinámica:</strong> usa el historial de ejecuciones pasadas. Los procesadores modernos alcanzan >97% de acierto.</li>
+                <li><strong>Spectre (2018):</strong> vulnerabilidad que explotó la ejecución especulativa del predictor para leer memoria privada.</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🔀 Ejecución Fuera de Orden (Out-of-Order)</h4>
+              Los procesadores modernos no ejecutan instrucciones en el orden en que están escritas. El hardware:
+              <ul>
+                <li>Analiza un ventana de instrucciones (instruction window)</li>
+                <li>Identifica instrucciones independientes que pueden ejecutarse ya</li>
+                <li>Las despacha a unidades de ejecución disponibles</li>
+                <li>Reordena los resultados para presentarlos en orden correcto</li>
+              </ul>
+              Intel Core i9 tiene una ventana de ~512 instrucciones en vuelo simultáneamente.
+            </div>
+            <div class="info-card">
+              <h4>🧵 Hyperthreading / SMT</h4>
+              <strong>Simultaneous MultiThreading:</strong> el procesador presenta dos "núcleos lógicos" por cada núcleo físico. Cuando un hilo está esperando datos (cache miss), el otro hilo usa las unidades de ejecución disponibles. Mejora utilización entre 15–30% en cargas de trabajo mixtas. Intel lo llama <em>Hyper-Threading</em>; AMD usa <em>SMT</em>.
+            </div>
+          </div>
+
+          <!-- ── U2 EXTRA: MEMORIA CACHÉ EN PROFUNDIDAD ── -->
+          <div class="unit-header">📌 2.6 Memoria Caché — Funcionamiento Detallado</div>
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Jerarquía de Caché en un CPU Moderno Multinúcleo</div>
+            <svg width="100%" viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- Core 0 -->
+              <rect x="20" y="10" width="120" height="80" rx="4" fill="#1e5799" stroke="#0a246a" stroke-width="1.5"/>
+              <text x="80" y="26" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Núcleo 0</text>
+              <rect x="30" y="32" width="100" height="20" rx="2" fill="#c04000"/><text x="80" y="46" text-anchor="middle" font-size="8" fill="white">L1-I (32KB) · L1-D (32KB)</text>
+              <rect x="30" y="56" width="100" height="20" rx="2" fill="#7a3a00"/><text x="80" y="70" text-anchor="middle" font-size="8" fill="white">L2 Caché (256KB–1MB)</text>
+              <!-- Core 1 -->
+              <rect x="160" y="10" width="120" height="80" rx="4" fill="#1e5799" stroke="#0a246a" stroke-width="1.5"/>
+              <text x="220" y="26" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Núcleo 1</text>
+              <rect x="170" y="32" width="100" height="20" rx="2" fill="#c04000"/><text x="220" y="46" text-anchor="middle" font-size="8" fill="white">L1-I (32KB) · L1-D (32KB)</text>
+              <rect x="170" y="56" width="100" height="20" rx="2" fill="#7a3a00"/><text x="220" y="70" text-anchor="middle" font-size="8" fill="white">L2 Caché (256KB–1MB)</text>
+              <!-- Core 2 -->
+              <rect x="300" y="10" width="120" height="80" rx="4" fill="#1e5799" stroke="#0a246a" stroke-width="1.5"/>
+              <text x="360" y="26" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Núcleo 2</text>
+              <rect x="310" y="32" width="100" height="20" rx="2" fill="#c04000"/><text x="360" y="46" text-anchor="middle" font-size="8" fill="white">L1-I (32KB) · L1-D (32KB)</text>
+              <rect x="310" y="56" width="100" height="20" rx="2" fill="#7a3a00"/><text x="360" y="70" text-anchor="middle" font-size="8" fill="white">L2 Caché (256KB–1MB)</text>
+              <!-- Core 3 -->
+              <rect x="440" y="10" width="110" height="80" rx="4" fill="#1e5799" stroke="#0a246a" stroke-width="1.5"/>
+              <text x="495" y="26" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Núcleo 3</text>
+              <rect x="450" y="32" width="90" height="20" rx="2" fill="#c04000"/><text x="495" y="46" text-anchor="middle" font-size="8" fill="white">L1-I · L1-D</text>
+              <rect x="450" y="56" width="90" height="20" rx="2" fill="#7a3a00"/><text x="495" y="70" text-anchor="middle" font-size="8" fill="white">L2 Caché</text>
+              <!-- L3 shared -->
+              <rect x="20" y="105" width="530" height="28" rx="4" fill="#660080" stroke="#440060" stroke-width="1.5"/>
+              <text x="285" y="121" text-anchor="middle" font-size="10" fill="white" font-weight="bold">L3 Caché Compartida (8–64 MB) — Last Level Cache (LLC)</text>
+              <!-- Arrows -->
+              <line x1="80" y1="90" x2="80" y2="105" stroke="#555" stroke-width="1.5" marker-end="url(#ca)"/>
+              <line x1="220" y1="90" x2="220" y2="105" stroke="#555" stroke-width="1.5" marker-end="url(#ca)"/>
+              <line x1="360" y1="90" x2="360" y2="105" stroke="#555" stroke-width="1.5" marker-end="url(#ca)"/>
+              <line x1="495" y1="90" x2="495" y2="105" stroke="#555" stroke-width="1.5" marker-end="url(#ca)"/>
+              <!-- RAM -->
+              <rect x="150" y="148" width="260" height="24" rx="3" fill="#2d6624" stroke="#1a4414" stroke-width="1.5"/>
+              <text x="280" y="164" text-anchor="middle" font-size="10" fill="white" font-weight="bold">RAM Principal (DDR4/DDR5 — GBs)</text>
+              <line x1="280" y1="133" x2="280" y2="148" stroke="#555" stroke-width="2" marker-end="url(#ca)"/>
+              <defs><marker id="ca" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#555"/></marker></defs>
+            </svg>
+          </div>
+
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>🎯 Principios de Localidad</h4>
+              La eficacia de la caché se basa en dos principios observados en todos los programas reales:
+              <ul>
+                <li><strong>Localidad temporal:</strong> si se accede a un dato, es probable que se vuelva a acceder pronto (variables en bucles, contadores).</li>
+                <li><strong>Localidad espacial:</strong> si se accede a una dirección, es probable que se acceda a direcciones cercanas (arreglos, código secuencial).</li>
+              </ul>
+              La caché explota ambos principios cargando bloques de memoria contiguos (<em>cache lines</em> de 64 bytes en x86).
+            </div>
+            <div class="info-card">
+              <h4>📊 Hit Rate y Miss Rate</h4>
+              <ul>
+                <li><strong>Cache Hit:</strong> el dato pedido por la CPU está en caché → se sirve en ~1-5 ciclos.</li>
+                <li><strong>Cache Miss:</strong> el dato no está → hay que buscarlo en el siguiente nivel (L2, L3 o RAM) → 10-300 ciclos de penalización.</li>
+                <li><strong>Hit rate típico:</strong> L1 >95% · L2 >80% · L3 >70%</li>
+                <li><strong>AMAT</strong> (Average Memory Access Time) = Hit time + Miss rate × Miss penalty</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🗂️ Políticas de Reemplazo</h4>
+              Cuando la caché está llena y llega un nuevo bloque, se debe expulsar uno antiguo:
+              <ul>
+                <li><strong>LRU (Least Recently Used):</strong> expulsa el bloque menos usado recientemente. Óptimo en la práctica.</li>
+                <li><strong>FIFO:</strong> expulsa el bloque más antiguo. Simple.</li>
+                <li><strong>Random:</strong> expulsa uno aleatorio. Sorprendentemente competitivo.</li>
+                <li><strong>LFU:</strong> expulsa el menos frecuentemente accedido.</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>✍️ Políticas de Escritura</h4>
+              Cuando la CPU escribe un dato, ¿cuándo se actualiza la RAM?
+              <ul>
+                <li><strong>Write-through:</strong> se escribe simultáneamente en caché y RAM. Simple, consistente, pero genera más tráfico de bus.</li>
+                <li><strong>Write-back:</strong> se escribe solo en caché; RAM se actualiza cuando el bloque se expulsa (dirty bit). Más eficiente pero más complejo.</li>
+                <li>Los procesadores modernos usan write-back en L1/L2 y write-through en L3.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ── U2 EXTRA: TABLA REGISTROS X86-64 ── -->
+          <div class="unit-header">📌 2.7 Registros x86-64 — Referencia Completa</div>
+          <p style="font-size:11px;margin-bottom:8px;color:#222;">La arquitectura x86-64 (AMD64/Intel 64) es la más usada en PCs y servidores actuales. Aquí los registros de propósito general y sus usos convencionales:</p>
+          <div style="overflow-x:auto;margin-bottom:10px;">
+            <table class="xp-table">
+              <thead>
+                <tr><th>64-bit</th><th>32-bit</th><th>16-bit</th><th>8-bit alto</th><th>8-bit bajo</th><th>Uso convencional</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>RAX</strong></td><td>EAX</td><td>AX</td><td>AH</td><td>AL</td><td>Acumulador, valor de retorno de funciones</td></tr>
+                <tr><td><strong>RBX</strong></td><td>EBX</td><td>BX</td><td>BH</td><td>BL</td><td>Base, registro preservado (callee-saved)</td></tr>
+                <tr><td><strong>RCX</strong></td><td>ECX</td><td>CX</td><td>CH</td><td>CL</td><td>Contador de bucles, 4º argumento de función</td></tr>
+                <tr><td><strong>RDX</strong></td><td>EDX</td><td>DX</td><td>DH</td><td>DL</td><td>Datos, 3er argumento de función</td></tr>
+                <tr><td><strong>RSI</strong></td><td>ESI</td><td>SI</td><td>—</td><td>SIL</td><td>Índice fuente (source index), 2º argumento</td></tr>
+                <tr><td><strong>RDI</strong></td><td>EDI</td><td>DI</td><td>—</td><td>DIL</td><td>Índice destino (dest index), 1er argumento</td></tr>
+                <tr><td><strong>RSP</strong></td><td>ESP</td><td>SP</td><td>—</td><td>SPL</td><td>Stack Pointer — puntero al tope de la pila</td></tr>
+                <tr><td><strong>RBP</strong></td><td>EBP</td><td>BP</td><td>—</td><td>BPL</td><td>Base Pointer — marco de pila (frame pointer)</td></tr>
+                <tr><td><strong>R8–R15</strong></td><td>R8D–R15D</td><td>R8W–R15W</td><td>—</td><td>R8B–R15B</td><td>Registros adicionales en modo 64-bit</td></tr>
+                <tr><td><strong>RIP</strong></td><td>EIP</td><td>IP</td><td>—</td><td>—</td><td>Instruction Pointer — Program Counter (PC)</td></tr>
+                <tr><td><strong>RFLAGS</strong></td><td>EFLAGS</td><td>FLAGS</td><td>—</td><td>—</td><td>PSW: ZF, CF, OF, SF, PF, DF, IF, TF</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="note-box">💡 <strong>Resumen Unidad 2:</strong> El procesador moderno va mucho más allá del simple ciclo Fetch-Decode-Execute. La microarquitectura incorpora pipeline de múltiples etapas, ejecución fuera de orden, predicción de saltos, SMT, y una jerarquía de caché compleja que maximiza la utilización de cada ciclo de reloj disponible.</div>
+
         </div>
-        <div class="status-bar"><span>4 temas</span><span>Unidad 2 completa</span></div>
+        <div class="status-bar"><span>7 temas</span><span>Unidad 2 expandida</span></div>
       </div>
 
       <!-- UNIT 3 -->
@@ -2056,8 +2559,210 @@
             </div>
           </div>
 
+          <!-- ── U3 EXTRA: SELECCIÓN DE CPU ── -->
+          <div class="unit-header">📌 3.4 Criterios Técnicos para Selección de CPU</div>
+          <div style="overflow-x:auto;margin-bottom:10px;">
+            <table class="xp-table">
+              <thead>
+                <tr><th>Criterio</th><th>¿Qué mide?</th><th>Gama baja</th><th>Gama media</th><th>Gama alta</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>Núcleos físicos</strong></td><td>Capacidad de multitarea real</td><td>4–6 núcleos</td><td>8–12 núcleos</td><td>16–24+ núcleos</td></tr>
+                <tr><td><strong>Hilos (threads)</strong></td><td>Núcleos lógicos con SMT</td><td>4–12 hilos</td><td>16–24 hilos</td><td>32–64 hilos</td></tr>
+                <tr><td><strong>Frecuencia base</strong></td><td>Velocidad garantizada</td><td>2.5–3.2 GHz</td><td>3.0–4.0 GHz</td><td>3.5–4.5 GHz</td></tr>
+                <tr><td><strong>Frecuencia turbo</strong></td><td>Pico en carga intensa</td><td>3.5–4.5 GHz</td><td>4.5–5.2 GHz</td><td>5.0–6.0 GHz</td></tr>
+                <tr><td><strong>TDP (Thermal Design Power)</strong></td><td>Calor disipado, consumo</td><td>35–65W</td><td>65–105W</td><td>125–253W</td></tr>
+                <tr><td><strong>Caché L3</strong></td><td>Buffer compartido entre núcleos</td><td>6–12 MB</td><td>16–32 MB</td><td>32–192 MB</td></tr>
+                <tr><td><strong>Socket</strong></td><td>Compatibilidad con placa base</td><td>AM4, LGA1700</td><td>AM5, LGA1700</td><td>AM5, LGA1700/4677</td></tr>
+                <tr><td><strong>Soporte RAM</strong></td><td>Tipo y velocidad máxima</td><td>DDR4-3200</td><td>DDR5-5600</td><td>DDR5-6400+</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ── U3 EXTRA: SELECCIÓN DE RAM ── -->
+          <div class="unit-header">📌 3.5 Selección y Especificaciones de Memoria RAM</div>
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Evolución de DDR — Velocidad y Voltaje</div>
+            <svg width="100%" viewBox="0 0 560 120" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- Bars -->
+              <rect x="20" y="20" width="70" height="60" rx="3" fill="#555"/>
+              <text x="55" y="15" text-anchor="middle" font-size="8" font-weight="bold" fill="#888">DDR1</text>
+              <text x="55" y="38" text-anchor="middle" font-size="7" fill="white">200–400</text>
+              <text x="55" y="50" text-anchor="middle" font-size="7" fill="white">MHz</text>
+              <text x="55" y="72" text-anchor="middle" font-size="7" fill="#aaa">2.5V</text>
+              <text x="55" y="90" text-anchor="middle" font-size="7" fill="#aaa">~3.2 GB/s</text>
+
+              <rect x="110" y="10" width="80" height="70" rx="3" fill="#7a3a00"/>
+              <text x="150" y="8" text-anchor="middle" font-size="8" font-weight="bold" fill="#fda">DDR2</text>
+              <text x="150" y="28" text-anchor="middle" font-size="7" fill="white">533–1066</text>
+              <text x="150" y="40" text-anchor="middle" font-size="7" fill="white">MHz</text>
+              <text x="150" y="60" text-anchor="middle" font-size="7" fill="#fda">1.8V</text>
+              <text x="150" y="90" text-anchor="middle" font-size="7" fill="#fda">~8 GB/s</text>
+
+              <rect x="210" y="5" width="85" height="75" rx="3" fill="#1e5799"/>
+              <text x="252" y="3" text-anchor="middle" font-size="8" font-weight="bold" fill="#4af">DDR3</text>
+              <text x="252" y="22" text-anchor="middle" font-size="7" fill="white">800–2133</text>
+              <text x="252" y="34" text-anchor="middle" font-size="7" fill="white">MHz</text>
+              <text x="252" y="54" text-anchor="middle" font-size="7" fill="#aac">1.5V</text>
+              <text x="252" y="90" text-anchor="middle" font-size="7" fill="#aac">~17 GB/s</text>
+
+              <rect x="315" y="2" width="85" height="78" rx="3" fill="#2d6624"/>
+              <text x="357" y="-1" text-anchor="middle" font-size="8" font-weight="bold" fill="#5f5">DDR4</text>
+              <text x="357" y="18" text-anchor="middle" font-size="7" fill="white">2133–3600</text>
+              <text x="357" y="30" text-anchor="middle" font-size="7" fill="white">MT/s</text>
+              <text x="357" y="50" text-anchor="middle" font-size="7" fill="#afa">1.2V</text>
+              <text x="357" y="90" text-anchor="middle" font-size="7" fill="#afa">~51 GB/s</text>
+
+              <rect x="420" y="1" width="120" height="79" rx="3" fill="#660080" stroke="#9932cc" stroke-width="1.5"/>
+              <text x="480" y="-1" text-anchor="middle" font-size="9" font-weight="bold" fill="#df5">DDR5 ← Actual</text>
+              <text x="480" y="18" text-anchor="middle" font-size="7" fill="white">4800–8400</text>
+              <text x="480" y="30" text-anchor="middle" font-size="7" fill="white">MT/s</text>
+              <text x="480" y="50" text-anchor="middle" font-size="7" fill="#daa">1.1V</text>
+              <text x="480" y="90" text-anchor="middle" font-size="7" fill="#daa">~96 GB/s dual-ch</text>
+
+              <text x="280" y="108" text-anchor="middle" font-size="8" fill="#0a246a" font-weight="bold">Cada generación: +velocidad, -voltaje, +densidad por módulo</text>
+            </svg>
+          </div>
+
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>📐 Lectura de Etiqueta RAM</h4>
+              Una etiqueta como <code style="background:#eee;padding:1px 4px;">Samsung DDR4-2666 8GB 1Rx8 PC4-21300</code> significa:
+              <ul>
+                <li><strong>DDR4:</strong> generación (Double Data Rate 4)</li>
+                <li><strong>2666:</strong> velocidad en MT/s (mega-transferencias/segundo)</li>
+                <li><strong>8GB:</strong> capacidad del módulo</li>
+                <li><strong>1Rx8:</strong> 1 rank de chips de 8 bits de ancho</li>
+                <li><strong>PC4-21300:</strong> ancho de banda peak en MB/s (21300 MB/s)</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🔢 Timings (Latencias CAS)</h4>
+              Los timings se expresan como <strong>CL-TRCD-TRP-TRAS</strong>. Ejemplo: <em>16-18-18-38</em>
+              <ul>
+                <li><strong>CL (CAS Latency):</strong> ciclos desde que se pide el dato hasta que sale</li>
+                <li><strong>TRCD:</strong> retardo de activación de fila</li>
+                <li><strong>TRP:</strong> tiempo de precarga de fila</li>
+                <li><strong>TRAS:</strong> tiempo mínimo de activación</li>
+              </ul>
+              Menor CL = menor latencia, pero mayor frecuencia también reduce la latencia real en nanosegundos.
+            </div>
+            <div class="info-card">
+              <h4>📦 Capacidad y Dual Channel</h4>
+              <ul>
+                <li><strong>Mínimo gaming 2024:</strong> 16 GB DDR4/DDR5</li>
+                <li><strong>Creación de contenido:</strong> 32 GB</li>
+                <li><strong>Workstation / IA:</strong> 64–128 GB ECC</li>
+                <li><strong>Dual Channel:</strong> usar dos módulos iguales en los slots del mismo color duplica el ancho de banda efectivo (~96 GB/s en DDR5 dual)</li>
+                <li><strong>ECC RAM:</strong> detección y corrección de errores de un bit — obligatoria en servidores críticos</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ── U3 EXTRA: ALMACENAMIENTO DETALLADO ── -->
+          <div class="unit-header">📌 3.6 Comparativa de Almacenamiento</div>
+          <div style="overflow-x:auto;margin-bottom:10px;">
+            <table class="xp-table">
+              <thead>
+                <tr><th>Tipo</th><th>Interfaz</th><th>Velocidad Lectura</th><th>Velocidad Escritura</th><th>Latencia</th><th>Capacidad típica</th><th>Uso recomendado</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>HDD 7200 RPM</strong></td><td>SATA III</td><td>~150 MB/s</td><td>~140 MB/s</td><td>~5-10 ms</td><td>1–20 TB</td><td>Almacenamiento masivo, backups</td></tr>
+                <tr><td><strong>SSD SATA</strong></td><td>SATA III</td><td>~550 MB/s</td><td>~520 MB/s</td><td>~0.1 ms</td><td>120 GB–4 TB</td><td>SO, apps, almacenamiento general</td></tr>
+                <tr><td><strong>NVMe Gen 3</strong></td><td>PCIe 3.0 x4</td><td>~3,500 MB/s</td><td>~3,000 MB/s</td><td>~0.02 ms</td><td>250 GB–4 TB</td><td>SO, juegos, edición de video</td></tr>
+                <tr><td><strong>NVMe Gen 4</strong></td><td>PCIe 4.0 x4</td><td>~7,000 MB/s</td><td>~6,500 MB/s</td><td>~0.015 ms</td><td>500 GB–4 TB</td><td>Workstations, gaming entusiasta</td></tr>
+                <tr><td><strong>NVMe Gen 5</strong></td><td>PCIe 5.0 x4</td><td>~12,000 MB/s</td><td>~11,000 MB/s</td><td>~0.01 ms</td><td>1–4 TB</td><td>IA, bases de datos de alto rendimiento</td></tr>
+                <tr><td><strong>RAM</strong></td><td>Bus CPU directo</td><td>~50–100 GB/s</td><td>~50–100 GB/s</td><td>~0.0001 ms</td><td>8–256 GB</td><td>Memoria de trabajo activo</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ── U3 EXTRA: FUENTE DE PODER EN PROFUNDIDAD ── -->
+          <div class="unit-header">📌 3.7 Fuentes de Alimentación — Especificaciones Técnicas</div>
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Rieles de Voltaje de una PSU ATX</div>
+            <svg width="100%" viewBox="0 0 560 140" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- PSU box -->
+              <rect x="10" y="10" width="140" height="120" rx="4" fill="#333" stroke="#666" stroke-width="1.5"/>
+              <text x="80" y="28" text-anchor="middle" font-size="9" fill="white" font-weight="bold">PSU ATX</text>
+              <text x="80" y="40" text-anchor="middle" font-size="8" fill="#aaa">CA 110–240V</text>
+              <text x="80" y="52" text-anchor="middle" font-size="8" fill="#aaa">→ CD regulada</text>
+              <text x="80" y="68" text-anchor="middle" font-size="7" fill="#888">Eficiencia 80+</text>
+              <text x="80" y="79" text-anchor="middle" font-size="7" fill="#888">Bronze/Gold/Platinum</text>
+
+              <!-- Voltage rails -->
+              <!-- +3.3V -->
+              <line x1="150" y1="40" x2="200" y2="40" stroke="#ff9900" stroke-width="2.5"/>
+              <rect x="200" y="28" width="110" height="24" rx="2" fill="#c04000"/>
+              <text x="255" y="40" text-anchor="middle" font-size="9" fill="white" font-weight="bold">+3.3V</text>
+              <text x="255" y="50" text-anchor="middle" font-size="7" fill="#fda">Lógica baja, interfaces</text>
+              <!-- +5V -->
+              <line x1="150" y1="65" x2="200" y2="65" stroke="#ff3333" stroke-width="2.5"/>
+              <rect x="200" y="53" width="110" height="24" rx="2" fill="#aa1111"/>
+              <text x="255" y="65" text-anchor="middle" font-size="9" fill="white" font-weight="bold">+5V</text>
+              <text x="255" y="75" text-anchor="middle" font-size="7" fill="#faa">USB, lógica, drives</text>
+              <!-- +12V -->
+              <line x1="150" y1="92" x2="200" y2="92" stroke="#ffff00" stroke-width="2.5"/>
+              <rect x="200" y="80" width="160" height="24" rx="2" fill="#2d6624" stroke="#4af" stroke-width="1"/>
+              <text x="280" y="92" text-anchor="middle" font-size="9" fill="white" font-weight="bold">+12V ★ Principal</text>
+              <text x="280" y="102" text-anchor="middle" font-size="7" fill="#afa">CPU, GPU, motores — 80-90% potencia</text>
+              <!-- -12V -->
+              <line x1="150" y1="118" x2="200" y2="118" stroke="#8888ff" stroke-width="1.5"/>
+              <rect x="200" y="108" width="110" height="20" rx="2" fill="#1a1a60"/>
+              <text x="255" y="118" text-anchor="middle" font-size="8" fill="white">-12V · +5V SB</text>
+              <text x="255" y="126" text-anchor="middle" font-size="7" fill="#88f">Legacy · Standby</text>
+
+              <!-- Connectors right -->
+              <rect x="380" y="30" width="100" height="18" rx="2" fill="#555"/>
+              <text x="430" y="43" text-anchor="middle" font-size="8" fill="white">24-pin ATX (placa base)</text>
+              <rect x="380" y="54" width="100" height="18" rx="2" fill="#555"/>
+              <text x="430" y="67" text-anchor="middle" font-size="8" fill="white">8-pin EPS (CPU)</text>
+              <rect x="380" y="78" width="100" height="18" rx="2" fill="#555"/>
+              <text x="430" y="91" text-anchor="middle" font-size="8" fill="white">6+2 PCIe (GPU)</text>
+              <rect x="380" y="102" width="100" height="18" rx="2" fill="#555"/>
+              <text x="430" y="115" text-anchor="middle" font-size="8" fill="white">SATA / Molex</text>
+            </svg>
+          </div>
+
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>⚡ Certificación 80 PLUS</h4>
+              Certifica que la PSU convierte la energía CA con cierta eficiencia mínima a 20%, 50% y 100% de carga:
+              <ul>
+                <li><strong>80+ (Estándar):</strong> 80% eficiencia</li>
+                <li><strong>80+ Bronze:</strong> 82–85%</li>
+                <li><strong>80+ Silver:</strong> 85–88%</li>
+                <li><strong>80+ Gold:</strong> 87–90% ← recomendado</li>
+                <li><strong>80+ Platinum:</strong> 90–92%</li>
+                <li><strong>80+ Titanium:</strong> 92–96% — máximo consumo mínimo</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🔢 Cálculo de Watts Necesarios</h4>
+              Pasos para elegir la potencia correcta:
+              <ul>
+                <li>CPU TDP + GPU TDP = consumo base</li>
+                <li>Agregar 20–30% para RAM, drives, ventiladores, tarjetas</li>
+                <li>Multiplicar × 1.25 para margen de seguridad y eficiencia</li>
+              </ul>
+              Ejemplo: i5-14600K (125W) + RTX 5070 (200W) + 50W resto = 375W × 1.25 = <strong>~470W → PSU 550–650W</strong>
+            </div>
+            <div class="info-card">
+              <h4>🔌 Tipos de PSU</h4>
+              <ul>
+                <li><strong>ATX:</strong> estándar de escritorio, 150×86mm, la mayoría del mercado</li>
+                <li><strong>SFX:</strong> formato pequeño para mini-ITX y cases compactos</li>
+                <li><strong>ATX 3.0:</strong> nuevo estándar con conector PCIe 5.0 de 12+4 pines para GPUs de alta gama (600W por conector)</li>
+                <li><strong>Modular:</strong> solo conectas los cables que usas → mejor airflow, más limpio</li>
+                <li><strong>Semi-modular:</strong> cables principales fijos + opcionales removibles</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="highlight-box">🛠️ <strong>Regla de oro para ensamble:</strong> CPU y GPU deben ser compatibles con el socket y chipset de la placa base. La RAM debe coincidir en tipo (DDR4/DDR5) y velocidad soportada. La PSU debe tener al menos 20% de margen sobre el consumo máximo estimado. El gabinete determina el factor de forma (ATX, mATX, ITX).</div>
+
         </div>
-        <div class="status-bar"><span>8 subtemas</span><span>Unidad 3 completa</span></div>
+        <div class="status-bar"><span>11 temas</span><span>Unidad 3 expandida</span></div>
       </div>
 
 
@@ -2383,8 +3088,239 @@
             </div>
           </div>
 
+          <!-- ── U4 EXTRA: LEY DE AMDAHL VISUAL ── -->
+          <div class="unit-header">📌 4.6 Ley de Amdahl y Ley de Gustafson</div>
+          <p style="font-size:11px;margin-bottom:8px;color:#222;">Estas leyes responden a la pregunta fundamental del paralelismo: <strong>¿Cuánto más rápido es un programa paralelo comparado con uno secuencial?</strong></p>
+
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Ley de Amdahl — Speedup máximo según fracción paralela</div>
+            <svg width="100%" viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- Axes -->
+              <line x1="50" y1="20" x2="50" y2="155" stroke="#333" stroke-width="1.5"/>
+              <line x1="50" y1="155" x2="530" y2="155" stroke="#333" stroke-width="1.5"/>
+              <text x="20" y="90" font-size="8" fill="#333" transform="rotate(-90,20,90)">Speedup máximo</text>
+              <text x="290" y="172" text-anchor="middle" font-size="8" fill="#333">Número de procesadores (N)</text>
+              <!-- Y axis labels -->
+              <text x="40" y="158" text-anchor="end" font-size="7" fill="#555">1</text>
+              <text x="40" y="125" text-anchor="end" font-size="7" fill="#555">5</text>
+              <text x="40" y="92" text-anchor="end" font-size="7" fill="#555">10</text>
+              <text x="40" y="59" text-anchor="end" font-size="7" fill="#555">15</text>
+              <text x="40" y="26" text-anchor="end" font-size="7" fill="#555">20</text>
+              <!-- X axis labels -->
+              <text x="95" y="165" text-anchor="middle" font-size="7" fill="#555">1</text>
+              <text x="185" y="165" text-anchor="middle" font-size="7" fill="#555">4</text>
+              <text x="275" y="165" text-anchor="middle" font-size="7" fill="#555">8</text>
+              <text x="365" y="165" text-anchor="middle" font-size="7" fill="#555">16</text>
+              <text x="455" y="165" text-anchor="middle" font-size="7" fill="#555">32</text>
+              <!-- Grid lines -->
+              <line x1="50" y1="125" x2="530" y2="125" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+              <line x1="50" y1="92" x2="530" y2="92" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+              <line x1="50" y1="59" x2="530" y2="59" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+              <!-- P=0.9 curve (max speedup ~10) -->
+              <path d="M95,155 C140,118 185,105 275,97 S365,92 530,90" fill="none" stroke="#2d6624" stroke-width="2"/>
+              <text x="535" y="88" font-size="7" fill="#2d6624" font-weight="bold">P=90%</text>
+              <!-- P=0.75 curve (max speedup ~4) -->
+              <path d="M95,155 C140,138 185,128 275,120 S365,117 530,116" fill="none" stroke="#1e5799" stroke-width="2"/>
+              <text x="535" y="114" font-size="7" fill="#1e5799" font-weight="bold">P=75%</text>
+              <!-- P=0.5 curve (max speedup ~2) -->
+              <path d="M95,155 C140,150 185,147 275,143 S365,141 530,140" fill="none" stroke="#c04000" stroke-width="2"/>
+              <text x="535" y="138" font-size="7" fill="#c04000" font-weight="bold">P=50%</text>
+              <!-- Formula -->
+              <rect x="60" y="22" width="200" height="32" rx="3" fill="#fff" stroke="#aaa"/>
+              <text x="160" y="36" text-anchor="middle" font-size="8" fill="#333">S(N) = 1 / ((1−P) + P/N)</text>
+              <text x="160" y="48" text-anchor="middle" font-size="7" fill="#555">P = fracción paralelizable</text>
+              <!-- Key insight -->
+              <text x="290" y="40" font-size="8" fill="#c04000" font-weight="bold">⚠ P=90%: limite = 10× sin importar N</text>
+              <text x="290" y="52" font-size="8" fill="#555">Si 10% del código es secuencial → máximo 10× más rápido</text>
+            </svg>
+          </div>
+
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>📐 Ley de Amdahl (1967)</h4>
+              <code style="background:#eee;padding:2px 6px;font-size:10px;display:block;margin:4px 0;">S = 1 / ((1 − P) + P/N)</code>
+              Donde P = fracción paralelizable, N = procesadores. La fracción <strong>secuencial (1−P) domina</strong> el rendimiento a gran escala:
+              <ul>
+                <li>Si P = 50% → máximo speedup = 2× (con ∞ procesadores)</li>
+                <li>Si P = 90% → máximo speedup = 10×</li>
+                <li>Si P = 99% → máximo speedup = 100×</li>
+              </ul>
+              Conclusión: para escalar bien, hay que minimizar el código secuencial.
+            </div>
+            <div class="info-card">
+              <h4>📈 Ley de Gustafson (1988)</h4>
+              Propone un punto de vista diferente: con más procesadores, podemos resolver <strong>problemas más grandes</strong> en el mismo tiempo, no solo el mismo problema más rápido:
+              <code style="background:#eee;padding:2px 6px;font-size:10px;display:block;margin:4px 0;">S = N − (1 − P) × (N − 1)</code>
+              La parte secuencial se vuelve relativamente insignificante al crecer el problema. Esto explica por qué los supercomputadores son útiles en simulaciones científicas donde el problema escala con los recursos disponibles.
+            </div>
+            <div class="info-card">
+              <h4>📊 Eficiencia del Paralelismo</h4>
+              <code style="background:#eee;padding:2px 6px;font-size:10px;display:block;margin:4px 0;">E = S / N × 100%</code>
+              <ul>
+                <li><strong>E = 100%:</strong> escalado perfecto lineal (ideal, prácticamente imposible)</li>
+                <li><strong>E = 50–80%:</strong> buen paralelismo en la práctica</li>
+                <li><strong>E &lt; 30%:</strong> overhead de sincronización supera las ganancias</li>
+              </ul>
+              El overhead incluye: comunicación entre procesos, sincronización, y acceso a memoria compartida.
+            </div>
+          </div>
+
+          <!-- ── U4 EXTRA: MODELOS DE PROGRAMACIÓN PARALELA ── -->
+          <div class="unit-header">📌 4.7 Modelos de Programación Paralela</div>
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>🧵 OpenMP — Memoria Compartida</h4>
+              API estándar para paralelismo de memoria compartida en C/C++/Fortran usando directivas del compilador:
+              <code style="background:#1a1a2e;color:#00e5ff;padding:6px 8px;font-size:9px;display:block;margin:4px 0;border-radius:3px;">#pragma omp parallel for
+for (int i = 0; i &lt; N; i++) {
+  a[i] = b[i] + c[i];  // cada hilo procesa su porción
+}</code>
+              Divide automáticamente el bucle entre los hilos disponibles. Ideal para sistemas con memoria compartida (multinúcleo).
+            </div>
+            <div class="info-card">
+              <h4>📨 MPI — Memoria Distribuida</h4>
+              Message Passing Interface: cada proceso tiene su propia memoria y se comunican enviando mensajes:
+              <code style="background:#1a1a2e;color:#00e5ff;padding:6px 8px;font-size:9px;display:block;margin:4px 0;border-radius:3px;">MPI_Send(&data, 1, MPI_INT,
+  dest, tag, MPI_COMM_WORLD);
+MPI_Recv(&data, 1, MPI_INT,
+  src, tag, MPI_COMM_WORLD, &status);</code>
+              Usado en clusters y supercomputadoras. Permite escalar a miles de nodos.
+            </div>
+            <div class="info-card">
+              <h4>🎮 CUDA — GPU Paralela</h4>
+              Plataforma de NVIDIA para programación masivamente paralela en GPU:
+              <code style="background:#1a1a2e;color:#00e5ff;padding:6px 8px;font-size:9px;display:block;margin:4px 0;border-radius:3px;">__global__ void vecAdd(float* a,
+  float* b, float* c) {
+  int i = blockIdx.x * blockDim.x
+        + threadIdx.x;
+  c[i] = a[i] + b[i];
+}</code>
+              Miles de hilos ejecutan simultáneamente. Base de la IA moderna (TensorFlow, PyTorch).
+            </div>
+            <div class="info-card">
+              <h4>🔀 Pthreads y std::thread</h4>
+              Nivel más bajo de programación paralela en C/C++. Control manual de hilos, mutexes y semáforos:
+              <ul>
+                <li><strong>mutex:</strong> evita condiciones de carrera al proteger secciones críticas</li>
+                <li><strong>semáforo:</strong> controla acceso a recursos limitados</li>
+                <li><strong>barrier:</strong> sincroniza todos los hilos en un punto</li>
+                <li><strong>condición de carrera:</strong> dos hilos acceden simultáneamente al mismo dato sin protección → resultado impredecible</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ── U4 EXTRA: SUPERCOMPUTADORAS Y TENDENCIAS ── -->
+          <div class="unit-header">📌 4.8 Supercomputadoras y Computación de Alto Rendimiento (HPC)</div>
+          <div style="background:#f0ede4;border:1px solid #ccc;padding:8px;margin-bottom:10px;text-align:center;">
+            <div style="font-size:10px;font-weight:bold;color:#000080;margin-bottom:4px;">🔍 Diagrama: Escala de Potencia de Cómputo</div>
+            <svg width="100%" viewBox="0 0 560 110" xmlns="http://www.w3.org/2000/svg" style="max-width:560px;">
+              <!-- Scale bar -->
+              <line x1="20" y1="55" x2="540" y2="55" stroke="#0a246a" stroke-width="2"/>
+              <!-- Levels -->
+              <circle cx="50" cy="55" r="8" fill="#555"/>
+              <text x="50" y="40" text-anchor="middle" font-size="7" fill="#555">PC</text>
+              <text x="50" y="72" text-anchor="middle" font-size="7" fill="#555">~100 GFLOPS</text>
+
+              <circle cx="140" cy="55" r="8" fill="#7a3a00"/>
+              <text x="140" y="40" text-anchor="middle" font-size="7" fill="#7a3a00">Workstation</text>
+              <text x="140" y="72" text-anchor="middle" font-size="7" fill="#7a3a00">~1–10 TFLOPS</text>
+
+              <circle cx="240" cy="55" r="8" fill="#1e5799"/>
+              <text x="240" y="40" text-anchor="middle" font-size="7" fill="#1e5799">Servidor GPU</text>
+              <text x="240" y="72" text-anchor="middle" font-size="7" fill="#1e5799">~100–1000 TFLOPS</text>
+
+              <circle cx="360" cy="55" r="8" fill="#2d6624"/>
+              <text x="360" y="40" text-anchor="middle" font-size="7" fill="#2d6624">HPC Cluster</text>
+              <text x="360" y="72" text-anchor="middle" font-size="7" fill="#2d6624">~1–100 PFLOPS</text>
+
+              <circle cx="490" cy="55" r="10" fill="#660080"/>
+              <text x="490" y="38" text-anchor="middle" font-size="7" fill="#660080" font-weight="bold">TOP500</text>
+              <text x="490" y="50" text-anchor="middle" font-size="7" fill="#660080">Frontier / El Capitan</text>
+              <text x="490" y="72" text-anchor="middle" font-size="7" fill="#660080" font-weight="bold">>1 EXAFLOP</text>
+              <text x="490" y="83" text-anchor="middle" font-size="7" fill="#660080">1018 ops/s</text>
+
+              <text x="280" y="100" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">1 GFLOP=10⁹ · 1 TFLOP=10¹² · 1 PFLOP=10¹⁵ · 1 EFLOP=10¹⁸ operaciones/segundo</text>
+            </svg>
+          </div>
+
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>🏆 Top 500 — Supercomputadoras más Potentes</h4>
+              <ul>
+                <li><strong>Frontier (ORNL, 2022):</strong> primer sistema exascale oficial — 1.1 ExaFLOPS. AMD EPYC + AMD Instinct MI250X. 8.7 MW de consumo.</li>
+                <li><strong>El Capitan (LLNL, 2024):</strong> ~2+ ExaFLOPS. AMD EPYC + Instinct MI300A (CPU+GPU integrados). Diseñado para simulaciones nucleares.</li>
+                <li>Aplicaciones: simulaciones climáticas, plegamiento de proteínas, diseño de medicamentos, explosiones nucleares virtuales, IA de frontera.</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>☁️ Computación en la Nube Paralela</h4>
+              Los proveedores de nube ofrecen paralelismo masivo bajo demanda:
+              <ul>
+                <li><strong>AWS HPC:</strong> instancias con 100+ GPUs A100 en red InfiniBand de alta velocidad</li>
+                <li><strong>Google TPU:</strong> Tensor Processing Units — chips diseñados específicamente para IA/ML con >100 TFLOPS cada uno</li>
+                <li><strong>Microsoft Azure:</strong> clusters de HPC con RDMA (Remote Direct Memory Access) para latencia sub-microsegundo entre nodos</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🧬 Computación Cuántica — El Siguiente Paradigma</h4>
+              La computación cuántica usa <strong>qubits</strong> (que pueden ser 0, 1 o ambos simultáneamente — superposición) para resolver ciertos problemas exponencialmente más rápido:
+              <ul>
+                <li><strong>Ventaja cuántica:</strong> para factorización, optimización y simulación molecular</li>
+                <li><strong>IBM Quantum:</strong> procesadores de 127–1000+ qubits disponibles en nube</li>
+                <li><strong>Google Sycamore:</strong> demostró supremacía cuántica en 2019 (tarea específica)</li>
+                <li>Aún no reemplaza a CPUs clásicas — complementaria para problemas específicos</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ── U4 EXTRA: ARQUITECTURAS EMERGENTES ── -->
+          <div class="unit-header">📌 4.9 Arquitecturas de Procesamiento Emergentes</div>
+          <div class="info-grid" style="margin-bottom:10px;">
+            <div class="info-card">
+              <h4>🧠 Computación Neuromórfica</h4>
+              Inspirada en el cerebro humano. En lugar de ejecutar instrucciones secuenciales, procesa mediante <strong>redes de neuronas artificiales en hardware</strong>:
+              <ul>
+                <li><strong>Intel Loihi 2:</strong> chip con 1 millón de neuronas artificiales, consume 0.1W</li>
+                <li><strong>IBM TrueNorth:</strong> 4096 núcleos neuromórficos, 1 millón de neuronas</li>
+                <li>Extremadamente eficiente para inferencia de IA en el borde (edge AI)</li>
+                <li>Aprende de forma continua sin reentrenamiento completo</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>🤖 NPU — Neural Processing Unit</h4>
+              Unidad de procesamiento dedicada a operaciones de IA/ML, presente en procesadores modernos:
+              <ul>
+                <li><strong>Apple Neural Engine:</strong> 38 TOPS en M4 — inferencia de modelos de IA en dispositivo</li>
+                <li><strong>Qualcomm Hexagon:</strong> NPU en chips Snapdragon para móviles</li>
+                <li><strong>Intel AI Boost:</strong> integrado en procesadores Core Ultra</li>
+                <li>Ejecuta redes neuronales (transformers, CNNs) con mínimo consumo energético</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>📦 Procesamiento En Memoria (PIM)</h4>
+              Mueve el cómputo <strong>dentro de los chips de memoria</strong>, eliminando el cuello de botella de mover datos entre CPU y RAM:
+              <ul>
+                <li><strong>Samsung HBM-PIM:</strong> DRAM con unidades de cómputo embebidas — 2× velocidad para IA</li>
+                <li><strong>UPMEM:</strong> módulos DIMM con procesadores integrados</li>
+                <li>Clave para Big Data y genomics donde los datos son más grandes que la caché</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h4>💡 Computación Fotónica</h4>
+              Usa <strong>fotones de luz</strong> en lugar de electrones para procesar información:
+              <ul>
+                <li>Velocidad de la luz → latencias extremadamente bajas</li>
+                <li>Sin resistencia eléctrica → consumo cercano a cero por operación</li>
+                <li><strong>Lightmatter:</strong> chips fotónicos para multiplicación de matrices de IA</li>
+                <li>Aún en desarrollo para uso general, pero prometedor para redes y IA</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="highlight-box">🚀 <strong>Perspectiva final — Unidad 4:</strong> El procesamiento paralelo evolucionó de múltiples CPUs (SMP/NUMA) a miles de núcleos en GPU (SIMD), clusters de memoria distribuida (MPI), y ahora hardware especializado (NPU, TPU, fotónica). La Ley de Moore desacelera pero el rendimiento sigue creciendo mediante arquitecturas más inteligentes y especializadas. Entender el paralelismo es esencial para cualquier desarrollador o ingeniero en sistemas de cómputo moderno.</div>
+
         </div>
-        <div class="status-bar"><span>5 temas</span><span>Unidad 4 completa</span></div>
+        <div class="status-bar"><span>9 temas</span><span>Unidad 4 expandida</span></div>
       </div>
 
     </div><!-- end page-home -->
